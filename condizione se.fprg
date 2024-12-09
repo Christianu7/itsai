@@ -14,7 +14,7 @@
             <declare name="numero1" type="String" array="False" size=""/>
             <declare name="numero2" type="String" array="False" size=""/>
             <output expression="&quot;dimmi un numero&quot;" newline="True"/>
-            <input variable="numero1"/>
+            <input variable="numero2"/>
             <output expression="&quot;dammi un secondo numero&quot;" newline="True"/>
             <input variable="numero2"/>
             <if expression="numero1&gt;numero2">
