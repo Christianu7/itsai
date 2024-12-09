@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="condizione se"/>
+        <attribute name="authors" value="ITS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-19 12:21:21 "/>
+        <attribute name="created" value="SVRTO0lUUy1QMTc7MjAyNC0xMS0xOTsiMTE6NTE6MjEgIjsxODk1"/>
+        <attribute name="edited" value="SVRTO0lUUy1QMTc7MjAyNC0xMS0xOTsiMTI6MjE6MjEgIjsxOzIwMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="String" array="False" size=""/>
+            <declare name="numero2" type="String" array="False" size=""/>
+            <output expression="&quot;dimmi un numero&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;dammi un secondo numero&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <if expression="numero1&gt;numero2">
+                <then>
+                    <output expression="&quot;b&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;a&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
